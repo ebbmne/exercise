@@ -1,0 +1,79 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px solid #999;
+  margin-top: 30rpx;
+}
+
+.post-author {
+  display: flex;
+  width: 100%;
+  height: 90rpx;
+  align-items: center;
+}
+
+.post-author image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+  margin-right: 60rpx;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #999;
+}
+
+.post-title {
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  text-indent: 20rpx;
+}
+
+.post-title text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100%;
+  height: 340rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.post-introduce {
+  width: 720rpx;
+  margin-left: 15rpx;
+}
+
+.post-introduce .word {
+  font-size: 12px;
+  letter-spacing: 2;
+  color: #999;
+}
+
+.post-state {
+  display: flex;
+  width: 100%;
+  height: 40rpx;
+  margin-top: 20rpx;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.post-state .icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 30rpx;
+}
+
+.post-state .count {
+  font-size: 12px;
+  color: #999;
+}

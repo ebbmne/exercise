@@ -1,0 +1,21 @@
+<template name="post-item">
+  <view class="post-container">
+    <view class="post-author">
+      <image src="{{avatar}}"></image>
+      <view class="post-date">{{date}}</view>
+    </view>
+    <view class="post-title">
+      <text>{{title}}</text>
+    </view>
+    <image class="post-image" src="{{imgSrc}}"></image>
+    <view class="post-introduce">
+      <text class="word">{{content}}</text>
+    </view>
+    <view class="post-state">
+      <image class="icon" src="/images/icon/chat.png"></image>
+      <view class="count">{{collection}}</view>
+      <image class="icon" src="/images/icon/view.png"></image>
+      <view class="count">{{reading}}</view>
+    </view>
+  </view>
+</template>

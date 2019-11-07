@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/post/post",
+    "pages/post/post-detail/post-detail",
+    
+    "pages/index/index"
+  ],
+  "sitemapLocation": "sitemap70.json"
+}

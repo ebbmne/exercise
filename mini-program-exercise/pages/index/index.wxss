@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #b3d4db;
+}
+
+.title {
+  margin-bottom: 200rpx;
+  font-weight: 600;
+  color: #405f80;
+}
+
+image {
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 200rpx;
+  margin-bottom: 100rpx;
+}
+
+.box {
+  border: 1px solid #405f80;
+  width: 200rpx;
+  height: 80rpx;
+  display: flex;
+  border-radius: 15rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .word {
+  font-size: 10px;
+  color: #405f80;
+}
+
+page {
+  background: #b3d4db;
+}
